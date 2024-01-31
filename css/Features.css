@@ -1,0 +1,238 @@
+body {
+    background: #fbf9f9;
+}
+
+.logorafiki {
+    padding: 2rem;
+    margin-left: -1rem;
+}
+
+nav {
+    background: #fff;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0 13px;
+    list-style: none;
+    float: right;
+}
+
+ul .navbar {
+    height: 2rem;
+
+}
+
+li {
+    float: left;
+}
+
+nav .link1 {
+    margin-top: 1rem;
+    padding: 38px 43px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+.hr:hover {
+    background-color: rgb(249 249 249);
+}
+
+hr {
+    display: flex;
+    height: 39px;
+    margin-top: 2.5rem;
+    opacity: 48%;
+}
+
+.hr {
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #dfd8d833;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 40px;
+    width: 100%;
+    height: 60px;
+    font-family: math;
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+
+}
+
+.p1 {
+    box-sizing: content-box;
+    width: 13%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    background-color: #f9f5f5;
+    font-family: 'Montagu Slab', serif;
+    margin: 2rem;
+    height: 23rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    font-family: math;
+}
+
+.write {
+    line-height: 1.6;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width:720px) {
+    nav {
+        display: block;
+        height: auto;
+        background-color: #fbf9f9;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logorafiki {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 4.5rem;
+    }
+
+    body {
+        background: #fbf9f9;
+
+    }
+
+    .hr {
+        display: table;
+    }
+
+    hr {
+        display: flex;
+        margin-top: 0.5rem;
+        justify-content: center;
+        width: 40%;
+        height: auto;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #dfd8d833;
+        color: black;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .write {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 35rem;
+        padding-left: 5rem;
+    }
+
+    nav.link1 {
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ktiba {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+    h1 {
+        padding: 0;
+    }
+
+    h1.p {
+        display: flex;
+        justify-content: center;
+        font-size: 0.9em;
+        padding: 0;
+        margin-bottom: 2rem;
+        height: 1.8rem;
+        padding-top: 1.5rem;
+
+    }
+
+    .sections {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.5rem;
+    }
+
+    .p1 {
+        width: 100%;
+        display: contents;
+    }
+
+}

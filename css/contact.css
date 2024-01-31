@@ -1,0 +1,296 @@
+body {
+    background: #fbf9f9;
+}
+
+.logorafiki {
+    padding: 2rem;
+    margin-left: -1rem;
+}
+
+nav {
+    background: #fff;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0 13px;
+    list-style: none;
+}
+
+ul .navbar {
+    height: 2rem;
+
+}
+
+li {
+    float: left;
+}
+
+nav .link1 {
+    margin-top: 1rem;
+    padding: 38px 43px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+.hr:hover {
+    background-color: rgb(249 249 249);
+}
+
+hr {
+    display: flex;
+    height: 39px;
+    margin-top: 2.5rem;
+    opacity: 48%;
+}
+
+.hr {
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #dfd8d833;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form {
+    width: 424px;
+    height: 453px;
+    border-radius: 9px;
+    box-shadow: 0 0 16px -9px #000;
+    padding: 59px 43px;
+    box-sizing: border-box;
+    font-family: 'Montagu Slab', serif;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+
+.h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2.h2 {
+    margin-top: -1rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montagu Slab', serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+    border-bottom: 2px solid #78788c
+}
+
+
+button {
+    color: black;
+    transition: all .3s;
+
+}
+
+.send:hover {
+    background: #340d82;
+    color: #fff;
+    width: 11rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+span {
+    margin: 0 5px 0 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.send {
+    border-radius: 16px;
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 15px;
+    font-family: system-ui;
+}
+
+
+textarea.form-control {
+    height: 117px;
+    width: 334px;
+}
+
+
+
+
+.box {
+    width: 456px;
+    height: 366px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 11rem;
+    line-height: 1.5rem;
+    margin-right: 2rem;
+    padding-top: 11rem;
+
+}
+
+.box-map {
+    padding: 38px;
+    border-radius: 9px;
+    margin: 2rem;
+    width: 267px;
+    height: 366px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: flex;
+}
+
+.kaboura {
+    padding: 1rem;
+    margin-left: -1rem;
+}
+
+.zouzkab {
+    padding-top: 1rem;
+}
+.reverse{
+    display: flex;
+}
+
+@media screen and (max-width:720px) {
+    nav {
+        display: block;
+        height: auto;
+        background-color: #fbf9f9;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logorafiki {
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 4.5rem;
+    }
+
+    body {
+        background: #fbf9f9;
+
+    }
+
+    .hr {
+        display: table;
+    }
+
+    hr {
+        display: flex;
+        margin-top: 0.5rem;
+        justify-content: center;
+        width: 40%;
+        height: auto;
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #dfd8d833;
+        color: black;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .write {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 35rem;
+        padding-left: 5rem;
+    }
+
+    nav.link1 {
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ktiba {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .rafikitel {
+        padding: 0;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -7rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 7rem;
+
+    }
+    .form{
+
+    }
+
+}
