@@ -53,14 +53,14 @@ hr {
 
 }
 
-footer {
-    display: flex;
-    justify-content: center;
+.footer {
     background-color: #dfd8d833;
     color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 2px;
+    height: -1rem;
+    margin-top: 2.4rem;
+    padding-top: -2rem;
 }
 
 h1 {
@@ -169,7 +169,7 @@ button {
         padding: 0;
     }
 
-    footer {
+    .footer {
         display: flex;
         justify-content: center;
         background-color: #dfd8d833;

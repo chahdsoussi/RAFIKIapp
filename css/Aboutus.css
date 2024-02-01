@@ -89,21 +89,6 @@ h3 {
     font-size: 1.6rem;
 }
 
-.button img {
-    padding: 1rem;
-    margin: 2rem;
-    height: 231px;
-    width: 242px;
-    cursor: pointer;
-    border-radius: 20px;
-    transform: translate(608px, -50px);
-}
-
-.button:hover {
-    background-color: #eee7e7;
-    transform: translate(607px, -41px);
-}
-
 .logo {
     display: flex;
     justify-content: center;
@@ -126,6 +111,41 @@ h3 {
     width: 12rem;
     height: 12rem
 }
+
+h2.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    height: 1.8rem;
+    padding-top: 1.5rem;
+}
+
+nav.link1 {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.ktiba {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+h3.join {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding-bottom: 0;
+    padding-left: 3rem;
+}
+
 
 @media screen and (max-width:720px) {
     nav {
@@ -200,39 +220,3 @@ h3 {
         padding-left: 5rem;
     }
 }
-
-h2.welcome {
-    display: flex;
-    justify-content: center;
-    font-size: 1em;
-    padding: 0;
-    margin: 0;
-    height: 1.8rem;
-    padding-top: 1.5rem;
-}
-
-nav.link1 {
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.ktiba {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-
-
-}
-
-h3.join {
-    display: flex;
-    justify-content: center;
-    font-size: 1em;
-    padding-bottom: 0;
-    padding-left: 3rem;
-}
-
-
